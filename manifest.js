@@ -1,7 +1,7 @@
 const compression = require('compression');
 
 module.exports = {
-  version: '1.0.0',
+  version: '0.0.0',
   policies: ['compression'],
   init: pluginContext => {
     pluginContext.registerPolicy({
